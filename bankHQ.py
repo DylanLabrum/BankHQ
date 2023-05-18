@@ -19,7 +19,7 @@ class Transaction(db.Model):
     receiver_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     amount = db.Column(db.Float, nullable=False)
 
-    def __repr__(self):
+    def __repr__(BanKHQ):
         return f"Transaction(sender_id={self.sender_id}, receiver_id={self.receiver_id}, amount={self.amount})"
 
 @app.route('/users', methods=['GET'])
