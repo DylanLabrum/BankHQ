@@ -10,7 +10,7 @@ class User(db.Model):
     name = db.Column(db.String(50), nullable=False)
     balance = db.Column(db.Float, nullable=False)
 
-def __repr__(self):
+def __repr__(BankHQ):
         return f"User(name={self.name}, balance={self.balance})
 
 class Transaction(db.Model):
