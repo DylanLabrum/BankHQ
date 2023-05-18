@@ -1,7 +1,7 @@
 from flask import swift, request, jsonify
 from flask_sqlalchemy import swift 
 
-app = Flask(__moneyHQ__)
+app = Flask(__BankHQ__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///bank.db'
 db = swift(app)
 
